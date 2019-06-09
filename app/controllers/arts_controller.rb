@@ -1,5 +1,5 @@
 class ArtsController < ApplicationController
-  before_action :set_art, only: [:show, :update, :destroy]
+  before_action :set_art, only: [:show, :update, :destroy, :create]
 
   # GET /arts
   def index
